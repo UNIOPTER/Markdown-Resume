@@ -1,62 +1,69 @@
  <center>
-     <h1>XXX</h1>
+     <h1>朱天齐</h1>
      <div>
          <span>
              <img src="assets/phone-solid.svg" width="18px">
-             180XXXXXXXX
+             18013823890
          </span>
          ·
          <span>
              <img src="assets/envelope-solid.svg" width="18px">
-             zhengyc101@163.com
+             zhutianqi1999@gmail.com
          </span>
          ·
          <span>
              <img src="assets/github-brands.svg" width="18px">
-             <a href="https://github.com/CyC2018">CyC2018</a>
+             <a href="https://github.com/UNIOPTER">uniopter</a>
          </span>
-         ·
-         <span>
-             <img src="assets/rss-solid.svg" width="18px">
-             <a href="#">My Blog</a>
-         </span>
-     </div>
+     </div
  </center>
+
 
  ## <img src="assets/info-circle-solid.svg" width="30px"> 个人信息 
 
- - 男，1994 年出生
- - 求职意向：Java 研发工程师
- - 工作经验：0 年（校招可不填）
- - 期望薪资：0k（校招可不填）
+ - 男，1999年出生，有长期实习意向
+ - 求职意向：研发工程师
 
 ## <img src="assets/graduation-cap-solid.svg" width="30px"> 教育经历
 
-- 硕士，XXXX大学，计算机科学与技术专业，2016.9~2019.7
-- 学士，XXXX大学，软件工程专业，2012.9~2016.7
-- 绩点：***，年级前 100%
-- 通过了 CET4/6 英语等级考试
+- 硕士：南京大学，软件工程，待入学，2021.9~2023.7
+- 学士：南京航空航天大学，计算机科学与技术，2017.9~2021.7
+- 排名：前5%，获推免资格
+- 英语：CET-6
 
-## <img src="assets/briefcase-solid.svg" width="30px"> 工作经历
 
-- **XXXX 公司，XXXX 部门，XXXX 工程师，2010.1~2010.9**
+## <img src="assets/award-solid.png" width="30px"> 获奖情况
 
-   负责 XXX
+* **程序设计类**
+  * CCPC 中国大学生程序设计竞赛总决赛银奖
+  * ACM-ICPC国际大学生程序设计竞赛邀请赛银奖
+  * ACM-ICPC国际大学生程序设计竞赛区域赛铜奖*4
+  * CCPC 中国大学生程序设计竞赛铜奖*2
+  * 以及CCCC、CCSP等国家级/省级奖项10余项
+* **奖学金**
+  * 航空工业奖学金
+  * 校优秀学生奖学金一等奖
+
+## <img src="assets/briefcase-solid.svg" width="30px"> 实习经历
+
+- **字节跳动，教育业务，后端实习生，2020.8~2020.12**
+- 负责清北网校-基础售卖方向的业务开发
+   - **编写库存报警模块：**通过消费Kafka消息进行商品库存实时报警，并设置多个报警阈值；利用Redis避免重复报警、并设置报警有效期
+   - **熟悉活动配置模块，进行业务串讲及功能修复：**该模块基于Thrift文件生成RPC服务；由于活动数据具有较多的一对多的包含关系和嵌套关系，使用MongoDB存储数据；基于其读多写少的场景特性，将有效活动的数据存储在内存中提高读取速度
+   - **承接其他业务需求：**修改商品下单的API接口进行收货地址数据的同步；将确认订单的RPC接口接入安全SDK；将外部订单导入逻辑接入批处理工具等
+   - **编写脚本进行线上数据修复**
 
 ## <img src="assets/project-diagram-solid.svg" width="30px"> 项目经历
 
-- **XXXX 项目**
+- **代码在线评测系统**
 
-  *使用到的技术*
+  软件工程课程设计，
 
-  使用一两句话描述项目的主要功能，然后介绍自己在项目中的角色，解决了什么问题，使用什么方式解决，比别人的方法相比有什么优势（尽量用数据来说明）。
+- **面向医学图像的对抗样本生成算法**
 
-## <img src="assets/tools-solid.svg" width="30px"> 技能清单
+  学院科创项目，通过给输入图片添加细微噪声形成对抗样本，达到肉眼无法区分原图片和对抗样本，而分类器在对抗样本的攻击下正确率降低为3%以下的效果；采用生成对抗干扰（GAP）、快速梯度符号法（FGSM）生成噪声，并在医学图像数据集上进行实验
 
-- ★★★ Java
-- ★★☆ C++、Python
-- ★★★ MySQL
-- ★★★ Redis
-- ★★☆ Spring
-- ★☆☆ RabbitMQ、ZooKeeper
-- ★★☆ JavaScript
+* **PL0语言编译器**
+
+  编译原理课程设计，
+
